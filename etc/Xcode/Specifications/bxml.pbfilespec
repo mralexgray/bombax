@@ -1,0 +1,14 @@
+
+// BXML source code file specification
+
+(
+    {
+        Identifier = text.script.bxml;
+        BasedOn = text.script;
+        Name = "BXML source files";
+        ComputerLanguage = bxml;
+		Extensions = (bxml);        
+        Language = "xcode.lang.bxml";
+        AppliesToBuildRules = no;
+    }
+)

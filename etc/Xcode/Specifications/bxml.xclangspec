@@ -1,0 +1,99 @@
+(
+    {
+        Identifier = "xcode.lang.bxml";
+        Description = "BXML";
+        BasedOn = "xcode.lang.objc";
+        IncludeInMenu = YES;
+        Name = "BXML";
+        Syntax = {
+            IncludeRules = (
+                "xcode.lang.bxml.command.comment",
+                "xcode.lang.bxml.command.setup",
+                "xcode.lang.bxml.command.paste",
+                "xcode.lang.bxml.command.name",
+                "xcode.lang.bxml.command.base",
+                "xcode.lang.bxml.command.import",
+                "xcode.lang.bxml.objc"
+            );
+            Type = "xcode.syntax.string";
+        };
+    },
+
+    {
+        Identifier = "xcode.lang.bxml.command.setup";
+        BasedOn = "xcode.lang.objc";
+        Syntax = {
+            Start = "<?setup";
+            End = "?>";
+            ParseEndBeforeIncludedRules = YES;
+			Foldable = YES;
+            IncludeRules = (
+                "xcode.lang.objc"
+            );
+            Type = "xcode.syntax.keyword";
+        };
+    },
+
+    {
+        Identifier = "xcode.lang.bxml.command.paste";
+        Syntax = {
+            Start = "<?paste";
+            End = "?>";
+            Type = "xcode.syntax.keyword";
+        };
+    },
+
+    {
+        Identifier = "xcode.lang.bxml.command.name";
+        Syntax = {
+            Start = "<?name";
+            End = "?>";
+            Type = "xcode.syntax.keyword";
+        };
+    },
+
+    {
+        Identifier = "xcode.lang.bxml.command.base";
+        Syntax = {
+            Start = "<?base";
+            End = "?>";
+            Type = "xcode.syntax.keyword";
+        };
+    },
+
+
+    {
+        Identifier = "xcode.lang.bxml.command.comment";
+        Syntax = {
+            Start = "<?--";
+            End = "--?>";
+            Type = "xcode.syntax.comment";
+        };
+    },
+
+    {
+        Identifier = "xcode.lang.bxml.command.import";
+        BasedOn = "xcode.lang.objc";
+        Syntax = {
+            Start = "<?import";
+            End = "?>";
+            Type = "xcode.syntax.keyword";
+        };
+    },
+
+    {
+        Identifier = "xcode.lang.bxml.objc";
+        BasedOn = "xcode.lang.objc";
+        Syntax = {
+            Start = "<?";
+            End = "?>";
+            ParseEndBeforeIncludedRules = YES;
+			Foldable = YES;
+            IncludeRules = (
+                "xcode.lang.objc"
+            );
+            Type = "xcode.syntax.keyword";
+        };
+    }
+
+)
