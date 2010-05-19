@@ -1,0 +1,541 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AB4B097C1119D5C900CF05B1 /* BxCallback.h in Headers */ = {isa = PBXBuildFile; fileRef = AB4B097A1119D5C900CF05B1 /* BxCallback.h */; };
+		AB4B097D1119D5C900CF05B1 /* BxCallback.m in Sources */ = {isa = PBXBuildFile; fileRef = AB4B097B1119D5C900CF05B1 /* BxCallback.m */; };
+		AB4B097E1119D5C900CF05B1 /* BxCallback.h in Headers */ = {isa = PBXBuildFile; fileRef = AB4B097A1119D5C900CF05B1 /* BxCallback.h */; };
+		AB4B097F1119D5C900CF05B1 /* BxCallback.m in Sources */ = {isa = PBXBuildFile; fileRef = AB4B097B1119D5C900CF05B1 /* BxCallback.m */; };
+		AB4B09801119D5C900CF05B1 /* BxCallback.h in Headers */ = {isa = PBXBuildFile; fileRef = AB4B097A1119D5C900CF05B1 /* BxCallback.h */; };
+		AB4B09811119D5C900CF05B1 /* BxCallback.m in Sources */ = {isa = PBXBuildFile; fileRef = AB4B097B1119D5C900CF05B1 /* BxCallback.m */; };
+		AB4B09E5111A6A2900CF05B1 /* BxArchiveEnvelope.h in Headers */ = {isa = PBXBuildFile; fileRef = AB4B09E3111A6A2900CF05B1 /* BxArchiveEnvelope.h */; };
+		AB4B09E6111A6A2900CF05B1 /* BxArchiveEnvelope.m in Sources */ = {isa = PBXBuildFile; fileRef = AB4B09E4111A6A2900CF05B1 /* BxArchiveEnvelope.m */; };
+		AB4B09E7111A6A2900CF05B1 /* BxArchiveEnvelope.h in Headers */ = {isa = PBXBuildFile; fileRef = AB4B09E3111A6A2900CF05B1 /* BxArchiveEnvelope.h */; };
+		AB4B09E8111A6A2900CF05B1 /* BxArchiveEnvelope.m in Sources */ = {isa = PBXBuildFile; fileRef = AB4B09E4111A6A2900CF05B1 /* BxArchiveEnvelope.m */; };
+		AB4B09E9111A6A2900CF05B1 /* BxArchiveEnvelope.h in Headers */ = {isa = PBXBuildFile; fileRef = AB4B09E3111A6A2900CF05B1 /* BxArchiveEnvelope.h */; };
+		AB4B09EA111A6A2900CF05B1 /* BxArchiveEnvelope.m in Sources */ = {isa = PBXBuildFile; fileRef = AB4B09E4111A6A2900CF05B1 /* BxArchiveEnvelope.m */; };
+		ABF628B81117A63000CBAC95 /* BxServerSession.h in Headers */ = {isa = PBXBuildFile; fileRef = ABF628B61117A63000CBAC95 /* BxServerSession.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ABF628B91117A63000CBAC95 /* BxServerSession.m in Sources */ = {isa = PBXBuildFile; fileRef = ABF628B71117A63000CBAC95 /* BxServerSession.m */; };
+		ABF628BC1117A63900CBAC95 /* BxRemoteObject.h in Headers */ = {isa = PBXBuildFile; fileRef = ABF628BA1117A63900CBAC95 /* BxRemoteObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ABF628BD1117A63900CBAC95 /* BxRemoteObject.m in Sources */ = {isa = PBXBuildFile; fileRef = ABF628BB1117A63900CBAC95 /* BxRemoteObject.m */; };
+		ABF628C01117A64300CBAC95 /* BxRemoteObjectManager.h in Headers */ = {isa = PBXBuildFile; fileRef = ABF628BE1117A64300CBAC95 /* BxRemoteObjectManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ABF628C11117A64300CBAC95 /* BxRemoteObjectManager.m in Sources */ = {isa = PBXBuildFile; fileRef = ABF628BF1117A64300CBAC95 /* BxRemoteObjectManager.m */; };
+		ABF628C41117A65200CBAC95 /* BxMessageManager.h in Headers */ = {isa = PBXBuildFile; fileRef = ABF628C21117A65200CBAC95 /* BxMessageManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ABF628C51117A65200CBAC95 /* BxMessageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = ABF628C31117A65200CBAC95 /* BxMessageManager.m */; };
+		ABF628C71117A66200CBAC95 /* BxClientLib.h in Headers */ = {isa = PBXBuildFile; fileRef = ABF628C61117A66200CBAC95 /* BxClientLib.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ABF628D91117A71000CBAC95 /* BxClientLib.h in Headers */ = {isa = PBXBuildFile; fileRef = ABF628C61117A66200CBAC95 /* BxClientLib.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ABF628DA1117A71400CBAC95 /* BxMessageManager.h in Headers */ = {isa = PBXBuildFile; fileRef = ABF628C21117A65200CBAC95 /* BxMessageManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ABF628DB1117A71400CBAC95 /* BxMessageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = ABF628C31117A65200CBAC95 /* BxMessageManager.m */; };
+		ABF628DC1117A71500CBAC95 /* BxRemoteObjectManager.m in Sources */ = {isa = PBXBuildFile; fileRef = ABF628BF1117A64300CBAC95 /* BxRemoteObjectManager.m */; };
+		ABF628DD1117A71600CBAC95 /* BxServerSession.m in Sources */ = {isa = PBXBuildFile; fileRef = ABF628B71117A63000CBAC95 /* BxServerSession.m */; };
+		ABF628DE1117A71600CBAC95 /* BxRemoteObject.h in Headers */ = {isa = PBXBuildFile; fileRef = ABF628BA1117A63900CBAC95 /* BxRemoteObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ABF628DF1117A71700CBAC95 /* BxRemoteObject.m in Sources */ = {isa = PBXBuildFile; fileRef = ABF628BB1117A63900CBAC95 /* BxRemoteObject.m */; };
+		ABF628E01117A71700CBAC95 /* BxRemoteObjectManager.h in Headers */ = {isa = PBXBuildFile; fileRef = ABF628BE1117A64300CBAC95 /* BxRemoteObjectManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ABF628E11117A71A00CBAC95 /* BxServerSession.h in Headers */ = {isa = PBXBuildFile; fileRef = ABF628B61117A63000CBAC95 /* BxServerSession.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ABF628E21117A72400CBAC95 /* BxServerSession.h in Headers */ = {isa = PBXBuildFile; fileRef = ABF628B61117A63000CBAC95 /* BxServerSession.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ABF628E31117A72500CBAC95 /* BxRemoteObjectManager.h in Headers */ = {isa = PBXBuildFile; fileRef = ABF628BE1117A64300CBAC95 /* BxRemoteObjectManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ABF628E41117A72500CBAC95 /* BxRemoteObject.m in Sources */ = {isa = PBXBuildFile; fileRef = ABF628BB1117A63900CBAC95 /* BxRemoteObject.m */; };
+		ABF628E51117A72600CBAC95 /* BxRemoteObject.h in Headers */ = {isa = PBXBuildFile; fileRef = ABF628BA1117A63900CBAC95 /* BxRemoteObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ABF628E61117A72600CBAC95 /* BxServerSession.m in Sources */ = {isa = PBXBuildFile; fileRef = ABF628B71117A63000CBAC95 /* BxServerSession.m */; };
+		ABF628E71117A72700CBAC95 /* BxClientLib.h in Headers */ = {isa = PBXBuildFile; fileRef = ABF628C61117A66200CBAC95 /* BxClientLib.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ABF628E81117A72800CBAC95 /* BxRemoteObjectManager.m in Sources */ = {isa = PBXBuildFile; fileRef = ABF628BF1117A64300CBAC95 /* BxRemoteObjectManager.m */; };
+		ABF628E91117A72900CBAC95 /* BxMessageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = ABF628C31117A65200CBAC95 /* BxMessageManager.m */; };
+		ABF628EA1117A72A00CBAC95 /* BxMessageManager.h in Headers */ = {isa = PBXBuildFile; fileRef = ABF628C21117A65200CBAC95 /* BxMessageManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ABF629DD1117A7C100CBAC95 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0867D69BFE84028FC02AAC07 /* Foundation.framework */; };
+		ABF629DE1117A7C600CBAC95 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0867D69BFE84028FC02AAC07 /* Foundation.framework */; };
+		ABF629DF1117A7C900CBAC95 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0867D69BFE84028FC02AAC07 /* Foundation.framework */; };
+		ABF62A1E1117DCBA00CBAC95 /* BxRequestOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = ABF62A1C1117DCBA00CBAC95 /* BxRequestOperation.h */; };
+		ABF62A1F1117DCBA00CBAC95 /* BxRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = ABF62A1D1117DCBA00CBAC95 /* BxRequestOperation.m */; };
+		ABF62A201117DCBA00CBAC95 /* BxRequestOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = ABF62A1C1117DCBA00CBAC95 /* BxRequestOperation.h */; };
+		ABF62A211117DCBA00CBAC95 /* BxRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = ABF62A1D1117DCBA00CBAC95 /* BxRequestOperation.m */; };
+		ABF62A221117DCBA00CBAC95 /* BxRequestOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = ABF62A1C1117DCBA00CBAC95 /* BxRequestOperation.h */; };
+		ABF62A231117DCBA00CBAC95 /* BxRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = ABF62A1D1117DCBA00CBAC95 /* BxRequestOperation.m */; };
+		ABF62A671118DCAA00CBAC95 /* BxMessage.h in Headers */ = {isa = PBXBuildFile; fileRef = ABF62A651118DCAA00CBAC95 /* BxMessage.h */; };
+		ABF62A681118DCAA00CBAC95 /* BxMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = ABF62A661118DCAA00CBAC95 /* BxMessage.m */; };
+		ABF62A691118DCAA00CBAC95 /* BxMessage.h in Headers */ = {isa = PBXBuildFile; fileRef = ABF62A651118DCAA00CBAC95 /* BxMessage.h */; };
+		ABF62A6A1118DCAA00CBAC95 /* BxMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = ABF62A661118DCAA00CBAC95 /* BxMessage.m */; };
+		ABF62A6B1118DCAA00CBAC95 /* BxMessage.h in Headers */ = {isa = PBXBuildFile; fileRef = ABF62A651118DCAA00CBAC95 /* BxMessage.h */; };
+		ABF62A6C1118DCAA00CBAC95 /* BxMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = ABF62A661118DCAA00CBAC95 /* BxMessage.m */; };
+		ABF62A771119179D00CBAC95 /* BxRequestOperationCallback.h in Headers */ = {isa = PBXBuildFile; fileRef = ABF62A761119179D00CBAC95 /* BxRequestOperationCallback.h */; };
+		ABF62A781119179D00CBAC95 /* BxRequestOperationCallback.h in Headers */ = {isa = PBXBuildFile; fileRef = ABF62A761119179D00CBAC95 /* BxRequestOperationCallback.h */; };
+		ABF62A791119179D00CBAC95 /* BxRequestOperationCallback.h in Headers */ = {isa = PBXBuildFile; fileRef = ABF62A761119179D00CBAC95 /* BxRequestOperationCallback.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0867D69BFE84028FC02AAC07 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		0867D6A5FE840307C02AAC07 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		32DBCF5E0370ADEE00C91783 /* BxClientLib_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BxClientLib_Prefix.pch; sourceTree = "<group>"; };
+		AB4B097A1119D5C900CF05B1 /* BxCallback.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BxCallback.h; sourceTree = "<group>"; };
+		AB4B097B1119D5C900CF05B1 /* BxCallback.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BxCallback.m; sourceTree = "<group>"; };
+		AB4B09E3111A6A2900CF05B1 /* BxArchiveEnvelope.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BxArchiveEnvelope.h; sourceTree = "<group>"; };
+		AB4B09E4111A6A2900CF05B1 /* BxArchiveEnvelope.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BxArchiveEnvelope.m; sourceTree = "<group>"; };
+		ABF628A1111798D100CBAC95 /* libBxClientLib (Touch).a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libBxClientLib (Touch).a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABF628B01117991800CBAC95 /* libBxClientLib (TouchSim).a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libBxClientLib (TouchSim).a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABF628B61117A63000CBAC95 /* BxServerSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BxServerSession.h; sourceTree = "<group>"; };
+		ABF628B71117A63000CBAC95 /* BxServerSession.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BxServerSession.m; sourceTree = "<group>"; };
+		ABF628BA1117A63900CBAC95 /* BxRemoteObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BxRemoteObject.h; sourceTree = "<group>"; };
+		ABF628BB1117A63900CBAC95 /* BxRemoteObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BxRemoteObject.m; sourceTree = "<group>"; };
+		ABF628BE1117A64300CBAC95 /* BxRemoteObjectManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BxRemoteObjectManager.h; sourceTree = "<group>"; };
+		ABF628BF1117A64300CBAC95 /* BxRemoteObjectManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BxRemoteObjectManager.m; sourceTree = "<group>"; };
+		ABF628C21117A65200CBAC95 /* BxMessageManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BxMessageManager.h; sourceTree = "<group>"; };
+		ABF628C31117A65200CBAC95 /* BxMessageManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BxMessageManager.m; sourceTree = "<group>"; };
+		ABF628C61117A66200CBAC95 /* BxClientLib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BxClientLib.h; sourceTree = "<group>"; };
+		ABF62A1C1117DCBA00CBAC95 /* BxRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BxRequestOperation.h; sourceTree = "<group>"; };
+		ABF62A1D1117DCBA00CBAC95 /* BxRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BxRequestOperation.m; sourceTree = "<group>"; };
+		ABF62A651118DCAA00CBAC95 /* BxMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BxMessage.h; sourceTree = "<group>"; };
+		ABF62A661118DCAA00CBAC95 /* BxMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BxMessage.m; sourceTree = "<group>"; };
+		ABF62A761119179D00CBAC95 /* BxRequestOperationCallback.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BxRequestOperationCallback.h; sourceTree = "<group>"; };
+		D2AAC07E0554694100DB518D /* libBxClientLib.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libBxClientLib.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2F7E8BE07B2D77200F64583 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ABF6289F111798D000CBAC95 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABF629DD1117A7C100CBAC95 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABF628AE1117991800CBAC95 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABF629DE1117A7C600CBAC95 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2AAC07C0554694100DB518D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABF629DF1117A7C900CBAC95 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		034768DFFF38A50411DB9C8B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D2AAC07E0554694100DB518D /* libBxClientLib.a */,
+				ABF628A1111798D100CBAC95 /* libBxClientLib (Touch).a */,
+				ABF628B01117991800CBAC95 /* libBxClientLib (TouchSim).a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0867D691FE84028FC02AAC07 /* BxClientLib */ = {
+			isa = PBXGroup;
+			children = (
+				08FB77AEFE84172EC02AAC07 /* Classes */,
+				32C88DFF0371C24200C91783 /* Other Sources */,
+				0867D69AFE84028FC02AAC07 /* External Frameworks and Libraries */,
+				034768DFFF38A50411DB9C8B /* Products */,
+			);
+			name = BxClientLib;
+			sourceTree = "<group>";
+		};
+		0867D69AFE84028FC02AAC07 /* External Frameworks and Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7B0FEA5585E11CA2CBB /* Linked Frameworks */,
+				1058C7B2FEA5585E11CA2CBB /* Other Frameworks */,
+			);
+			name = "External Frameworks and Libraries";
+			sourceTree = "<group>";
+		};
+		08FB77AEFE84172EC02AAC07 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				AB4B09E3111A6A2900CF05B1 /* BxArchiveEnvelope.h */,
+				AB4B09E4111A6A2900CF05B1 /* BxArchiveEnvelope.m */,
+				ABF628C61117A66200CBAC95 /* BxClientLib.h */,
+				AB4B097A1119D5C900CF05B1 /* BxCallback.h */,
+				AB4B097B1119D5C900CF05B1 /* BxCallback.m */,
+				ABF62A651118DCAA00CBAC95 /* BxMessage.h */,
+				ABF62A661118DCAA00CBAC95 /* BxMessage.m */,
+				ABF628C21117A65200CBAC95 /* BxMessageManager.h */,
+				ABF628C31117A65200CBAC95 /* BxMessageManager.m */,
+				ABF628BA1117A63900CBAC95 /* BxRemoteObject.h */,
+				ABF628BB1117A63900CBAC95 /* BxRemoteObject.m */,
+				ABF628BE1117A64300CBAC95 /* BxRemoteObjectManager.h */,
+				ABF628BF1117A64300CBAC95 /* BxRemoteObjectManager.m */,
+				ABF62A1C1117DCBA00CBAC95 /* BxRequestOperation.h */,
+				ABF62A1D1117DCBA00CBAC95 /* BxRequestOperation.m */,
+				ABF62A761119179D00CBAC95 /* BxRequestOperationCallback.h */,
+				ABF628B61117A63000CBAC95 /* BxServerSession.h */,
+				ABF628B71117A63000CBAC95 /* BxServerSession.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		1058C7B0FEA5585E11CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7B2FEA5585E11CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0867D6A5FE840307C02AAC07 /* AppKit.framework */,
+				D2F7E8BE07B2D77200F64583 /* CoreData.framework */,
+				0867D69BFE84028FC02AAC07 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		32C88DFF0371C24200C91783 /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32DBCF5E0370ADEE00C91783 /* BxClientLib_Prefix.pch */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		ABF6289D111798D000CBAC95 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABF628D91117A71000CBAC95 /* BxClientLib.h in Headers */,
+				ABF628DA1117A71400CBAC95 /* BxMessageManager.h in Headers */,
+				ABF628DE1117A71600CBAC95 /* BxRemoteObject.h in Headers */,
+				ABF628E01117A71700CBAC95 /* BxRemoteObjectManager.h in Headers */,
+				ABF628E11117A71A00CBAC95 /* BxServerSession.h in Headers */,
+				ABF62A201117DCBA00CBAC95 /* BxRequestOperation.h in Headers */,
+				ABF62A671118DCAA00CBAC95 /* BxMessage.h in Headers */,
+				ABF62A771119179D00CBAC95 /* BxRequestOperationCallback.h in Headers */,
+				AB4B097C1119D5C900CF05B1 /* BxCallback.h in Headers */,
+				AB4B09E5111A6A2900CF05B1 /* BxArchiveEnvelope.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABF628AC1117991800CBAC95 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABF628E21117A72400CBAC95 /* BxServerSession.h in Headers */,
+				ABF628E31117A72500CBAC95 /* BxRemoteObjectManager.h in Headers */,
+				ABF628E51117A72600CBAC95 /* BxRemoteObject.h in Headers */,
+				ABF628E71117A72700CBAC95 /* BxClientLib.h in Headers */,
+				ABF628EA1117A72A00CBAC95 /* BxMessageManager.h in Headers */,
+				ABF62A221117DCBA00CBAC95 /* BxRequestOperation.h in Headers */,
+				ABF62A6B1118DCAA00CBAC95 /* BxMessage.h in Headers */,
+				ABF62A791119179D00CBAC95 /* BxRequestOperationCallback.h in Headers */,
+				AB4B09801119D5C900CF05B1 /* BxCallback.h in Headers */,
+				AB4B09E9111A6A2900CF05B1 /* BxArchiveEnvelope.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2AAC07A0554694100DB518D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABF628B81117A63000CBAC95 /* BxServerSession.h in Headers */,
+				ABF628BC1117A63900CBAC95 /* BxRemoteObject.h in Headers */,
+				ABF628C01117A64300CBAC95 /* BxRemoteObjectManager.h in Headers */,
+				ABF628C41117A65200CBAC95 /* BxMessageManager.h in Headers */,
+				ABF628C71117A66200CBAC95 /* BxClientLib.h in Headers */,
+				ABF62A1E1117DCBA00CBAC95 /* BxRequestOperation.h in Headers */,
+				ABF62A691118DCAA00CBAC95 /* BxMessage.h in Headers */,
+				ABF62A781119179D00CBAC95 /* BxRequestOperationCallback.h in Headers */,
+				AB4B097E1119D5C900CF05B1 /* BxCallback.h in Headers */,
+				AB4B09E7111A6A2900CF05B1 /* BxArchiveEnvelope.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		ABF628A0111798D000CBAC95 /* BxClientLib (Touch) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABF628AB111798F200CBAC95 /* Build configuration list for PBXNativeTarget "BxClientLib (Touch)" */;
+			buildPhases = (
+				ABF6289D111798D000CBAC95 /* Headers */,
+				ABF6289E111798D000CBAC95 /* Sources */,
+				ABF6289F111798D000CBAC95 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "BxClientLib (Touch)";
+			productName = "BxClientLib (Touch)";
+			productReference = ABF628A1111798D100CBAC95 /* libBxClientLib (Touch).a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		ABF628AF1117991800CBAC95 /* BxClientLib (TouchSim) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABF628B51117997600CBAC95 /* Build configuration list for PBXNativeTarget "BxClientLib (TouchSim)" */;
+			buildPhases = (
+				ABF628AC1117991800CBAC95 /* Headers */,
+				ABF628AD1117991800CBAC95 /* Sources */,
+				ABF628AE1117991800CBAC95 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "BxClientLib (TouchSim)";
+			productName = "BxClientLib (TouchSim)";
+			productReference = ABF628B01117991800CBAC95 /* libBxClientLib (TouchSim).a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		D2AAC07D0554694100DB518D /* BxClientLib */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DEB921E08733DC00010E9CD /* Build configuration list for PBXNativeTarget "BxClientLib" */;
+			buildPhases = (
+				D2AAC07A0554694100DB518D /* Headers */,
+				D2AAC07B0554694100DB518D /* Sources */,
+				D2AAC07C0554694100DB518D /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BxClientLib;
+			productName = BxClientLib;
+			productReference = D2AAC07E0554694100DB518D /* libBxClientLib.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0867D690FE84028FC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 1DEB922208733DC00010E9CD /* Build configuration list for PBXProject "BxClientLib" */;
+			compatibilityVersion = "Xcode 3.1";
+			hasScannedForEncodings = 1;
+			mainGroup = 0867D691FE84028FC02AAC07 /* BxClientLib */;
+			productRefGroup = 034768DFFF38A50411DB9C8B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D2AAC07D0554694100DB518D /* BxClientLib */,
+				ABF628A0111798D000CBAC95 /* BxClientLib (Touch) */,
+				ABF628AF1117991800CBAC95 /* BxClientLib (TouchSim) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ABF6289E111798D000CBAC95 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABF628DB1117A71400CBAC95 /* BxMessageManager.m in Sources */,
+				ABF628DC1117A71500CBAC95 /* BxRemoteObjectManager.m in Sources */,
+				ABF628DD1117A71600CBAC95 /* BxServerSession.m in Sources */,
+				ABF628DF1117A71700CBAC95 /* BxRemoteObject.m in Sources */,
+				ABF62A211117DCBA00CBAC95 /* BxRequestOperation.m in Sources */,
+				ABF62A681118DCAA00CBAC95 /* BxMessage.m in Sources */,
+				AB4B097D1119D5C900CF05B1 /* BxCallback.m in Sources */,
+				AB4B09E6111A6A2900CF05B1 /* BxArchiveEnvelope.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABF628AD1117991800CBAC95 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABF628E41117A72500CBAC95 /* BxRemoteObject.m in Sources */,
+				ABF628E61117A72600CBAC95 /* BxServerSession.m in Sources */,
+				ABF628E81117A72800CBAC95 /* BxRemoteObjectManager.m in Sources */,
+				ABF628E91117A72900CBAC95 /* BxMessageManager.m in Sources */,
+				ABF62A231117DCBA00CBAC95 /* BxRequestOperation.m in Sources */,
+				ABF62A6C1118DCAA00CBAC95 /* BxMessage.m in Sources */,
+				AB4B09811119D5C900CF05B1 /* BxCallback.m in Sources */,
+				AB4B09EA111A6A2900CF05B1 /* BxArchiveEnvelope.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2AAC07B0554694100DB518D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABF628B91117A63000CBAC95 /* BxServerSession.m in Sources */,
+				ABF628BD1117A63900CBAC95 /* BxRemoteObject.m in Sources */,
+				ABF628C11117A64300CBAC95 /* BxRemoteObjectManager.m in Sources */,
+				ABF628C51117A65200CBAC95 /* BxMessageManager.m in Sources */,
+				ABF62A1F1117DCBA00CBAC95 /* BxRequestOperation.m in Sources */,
+				ABF62A6A1118DCAA00CBAC95 /* BxMessage.m in Sources */,
+				AB4B097F1119D5C900CF05B1 /* BxCallback.m in Sources */,
+				AB4B09E8111A6A2900CF05B1 /* BxArchiveEnvelope.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1DEB921F08733DC00010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = BxClientLib_Prefix.pch;
+				INSTALL_PATH = /usr/local/lib;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = BxClientLib;
+				SDKROOT = macosx10.5;
+			};
+			name = Debug;
+		};
+		1DEB922008733DC00010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = BxClientLib_Prefix.pch;
+				INSTALL_PATH = /usr/local/lib;
+				PRODUCT_NAME = BxClientLib;
+				SDKROOT = macosx10.5;
+			};
+			name = Release;
+		};
+		1DEB922308733DC00010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.5;
+			};
+			name = Debug;
+		};
+		1DEB922408733DC00010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.5;
+			};
+			name = Release;
+		};
+		ABF628A2111798D100CBAC95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				PREBINDING = NO;
+				PRODUCT_NAME = "BxClientLib (Touch)";
+				SDKROOT = iphoneos3.1;
+			};
+			name = Debug;
+		};
+		ABF628A3111798D100CBAC95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				PREBINDING = NO;
+				PRODUCT_NAME = "BxClientLib (Touch)";
+				SDKROOT = iphoneos3.1;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		ABF628B11117991800CBAC95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				ONLY_ACTIVE_ARCH = NO;
+				PREBINDING = NO;
+				PRODUCT_NAME = "BxClientLib (TouchSim)";
+				SDKROOT = iphonesimulator3.1;
+			};
+			name = Debug;
+		};
+		ABF628B21117991800CBAC95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				PREBINDING = NO;
+				PRODUCT_NAME = "BxClientLib (TouchSim)";
+				SDKROOT = iphonesimulator3.1;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DEB921E08733DC00010E9CD /* Build configuration list for PBXNativeTarget "BxClientLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB921F08733DC00010E9CD /* Debug */,
+				1DEB922008733DC00010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DEB922208733DC00010E9CD /* Build configuration list for PBXProject "BxClientLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB922308733DC00010E9CD /* Debug */,
+				1DEB922408733DC00010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ABF628AB111798F200CBAC95 /* Build configuration list for PBXNativeTarget "BxClientLib (Touch)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABF628A2111798D100CBAC95 /* Debug */,
+				ABF628A3111798D100CBAC95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ABF628B51117997600CBAC95 /* Build configuration list for PBXNativeTarget "BxClientLib (TouchSim)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABF628B11117991800CBAC95 /* Debug */,
+				ABF628B21117991800CBAC95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0867D690FE84028FC02AAC07 /* Project object */;
+}
