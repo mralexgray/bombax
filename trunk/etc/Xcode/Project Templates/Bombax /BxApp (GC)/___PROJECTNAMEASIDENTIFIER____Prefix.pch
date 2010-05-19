@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'BaxTemplate' target in the 'BaxTemplate' project
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+#endif

@@ -1,0 +1,7 @@
+<html>
+ <body>
+  <?
+    [_ write:@"Hello World!"];
+  ?>
+ </body>
+</html>

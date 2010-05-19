@@ -1,0 +1,3 @@
+{
+  Description = "This creates a new garbage-collected BxApp for the Bombax web development platform.";
+}

@@ -1,0 +1,4 @@
+{
+	MainTemplateFile = "class.bxml";
+	Description = "A BXML handler file.";
+}
